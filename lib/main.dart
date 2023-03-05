@@ -38,16 +38,22 @@ class Facebook extends StatelessWidget {
         actions: [
           IconButton(
             icon: Icon(Icons.search),
-          color: Colors.blue,
+            color: Colors.blue,
             onPressed: () {},
           ),
           IconButton(
             icon: Icon(Icons.message),
-          color: Colors.blue,
+            color: Colors.blue,
             onPressed: () {},
           )
         ],
         backgroundColor: Colors.white,
+      ),
+      body: Scaffold(
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {},
+          child: Icon(Icons.add),
+        ),
       ),
     );
   }
